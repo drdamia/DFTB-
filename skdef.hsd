@@ -1,19 +1,8 @@
 # Data for Electrolyte 
 SkdefVersion = 1
-
 Globals {
-  # supported (semi-)local xc-functionals:
-  # XCFunctional = lda {}
-  # XCFunctional = pbe {}
-  # XCFunctional = blyp {}
-
-  # supported long-range corrected xc-functionals:
-  # (omega: range-separation parameter)
-  # XCFunctional = lc-pbe {omega = 0.3}
-  # XCFunctional = lc-bnl {omega = 0.3}
-  XCFunctional = pbe 
+  XCFunctional = pbe {}
   Superposition = density
-  
 }
 
 
